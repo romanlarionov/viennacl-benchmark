@@ -7,7 +7,7 @@ set(DEPS_DIR "${CMAKE_SOURCE_DIR}/deps")
 
 # CUDA
 find_package(CUDA REQUIRED)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -03 -ffast-math -Wall")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -ffast-math -Wall")
 list(APPEND CUDA_NVCC_FLAGS --compiler-options -fno-strict-aliasing -lineinfo -use_fast_math -Xptxas -dlcm=cg)
 
 # ViennaCL
@@ -23,8 +23,8 @@ endif(${CUDA_FOUND})
 include_directories(${CUDA_INCLUDE_DIRS}
                     ${INCLUDE_DIR}
                     ${DEPS_DIR}/hayai/src
-                    ${DEPS_DIR}/viennacl-dev/viennacl)
+                    ${DEPS_DIR}/viennacl-dev)
 
 set(SOURCE_FILES ${SRC_DIR}/main.cpp)
-add_executable(vienna_benchmark ${SOURCE_FILES})
-target_link_libraries(vienna_benchmark ${CUDA_LIBRARIES} ${CUDA_CUBLAS_LIBRARIES}})
+cuda_add_executable(vienna_benchmark ${SOURCE_FILES})
+target_link_libraries(vienna_benchmark cuda ${CUDA_LIBRARIES} ${CUDA_CUBLAS_LIBRARIES})
