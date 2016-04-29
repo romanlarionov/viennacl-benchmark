@@ -88,6 +88,8 @@ int main(int argc, char *argv[])
         total_exec_time += exec_time;
         total_gflops += curr_gflops;
 
+		if (i % 10 == 0) std::cout << i << std::endl;
+
         output << "Run : " << i << "\t\t";
         output << "Real execution time: " << exec_time << "s\t";
         output << "GFLOPs per second: " << (curr_gflops / exec_time) << "\n";

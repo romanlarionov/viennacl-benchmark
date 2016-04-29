@@ -65,6 +65,8 @@ int main(int argc, char *argv[])
         exec_time = timer.get();
         total_exec_time += exec_time;
 
+		if (i % 10 == 0) std::cout << i << std::endl;
+
         output << "Run : " << i << "\t";
         output << "Real execution time: " << exec_time << "s\t";
         output << "Result: " << result << "\n";
