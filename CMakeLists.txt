@@ -35,5 +35,7 @@ include_directories(${INCLUDE_DIR}
 add_executable(inner_product ${SRC_DIR}/inner_product.cpp)
 add_executable(matrix_mult ${SRC_DIR}/matrix_mult.cpp)
 
-target_link_libraries(inner_product cuda ${CUDA_LIBRARIES} ${CUDA_CUBLAS_LIBRARIES})
-target_link_libraries(matrix_mult cuda ${CUDA_LIBRARIES} ${CUDA_CUBLAS_LIBRARIES})
+if (${CUDA_FOUND})
+	target_link_libraries(inner_product cuda ${CUDA_LIBRARIES} ${CUDA_CUBLAS_LIBRARIES})
+	target_link_libraries(matrix_mult cuda ${CUDA_LIBRARIES} ${CUDA_CUBLAS_LIBRARIES})
+endif(${CUDA_FOUND})
