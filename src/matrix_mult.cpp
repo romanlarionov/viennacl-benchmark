@@ -60,12 +60,13 @@ int main(int argc, char *argv[])
     int rows = 4000;
     int cols = 4000;
 
-    if (argc == 2)
+    if (argc > 1) {
         num_runs = std::atoi(argv[1]);
-    else if (argc == 4) {
-        rows = std::atoi(argv[2]);
-        cols = std::atoi(argv[3]);
-    }
+    	if (argc == 4) {
+        	rows = std::atoi(argv[2]);
+        	cols = std::atoi(argv[3]);
+    	}
+	}
 
     std::ofstream output;
     output.open("matrix_mult.txt");

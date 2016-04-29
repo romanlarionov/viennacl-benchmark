@@ -4,7 +4,7 @@ cd ${HOME}
 
 sudo dpkg -i cuda-repo-ubuntu1404_7.5-18_amd64.deb
 sudo apt-get update
-sudo apt-get install git cmake cuda
+sudo apt-get install git cmake gcc g++ cuda
 
 echo "export CUDA_HOME=/usr/local/cuda-7.5" >> ${HOME}/.bashrc
 echo "export LD_LIBRARY_PATH=${CUDA_HOME}"  >> ${HOME}/.bashrc

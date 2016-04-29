@@ -42,10 +42,11 @@ int main(int argc, char *argv[])
     int num_runs = 10;
     int dimensionality = 3000000;
 
-    if (argc == 2)
+    if (argc > 1) {
         num_runs = std::atoi(argv[1]);
-    else if (argc == 3)
-        dimensionality = std::atoi(argv[2]);
+        if (argc == 3)
+            dimensionality = std::atoi(argv[2]);
+    }
 
     std::ofstream output;
     output.open("inner_product.txt");
