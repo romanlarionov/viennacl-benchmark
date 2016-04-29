@@ -1,6 +1,6 @@
 [submodule "deps/viennacl-dev"]
 	path = deps/viennacl-dev
 	url = git://github.com/viennacl/viennacl-dev.git
-[submodule "deps/hayai"]
-	path = deps/hayai
-	url = git://github.com/nickbruun/hayai.git
+[submodule "deps/benchmark"]
+	path = deps/benchmark
+	url = git://github.com/google/benchmark.git

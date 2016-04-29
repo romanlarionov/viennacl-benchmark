@@ -20,11 +20,13 @@ if(${CUDA_FOUND})
     option(ENABLE_CUDA ON)
 endif(${CUDA_FOUND})
 
+add_subdirectory(${DEPS_DIR}/benchmark)
+
 include_directories(${INCLUDE_DIR}
-                    ${DEPS_DIR}/hayai/src
+                    ${DEPS_DIR}/benchmark/include
                     ${DEPS_DIR}/viennacl-dev
                     ${CUDA_INCLUDE_DIRS})
 
 set(SOURCE_FILES ${SRC_DIR}/main.cpp)
 add_executable(vienna_benchmark ${SOURCE_FILES})
-target_link_libraries(vienna_benchmark cuda ${CUDA_LIBRARIES} ${CUDA_CUBLAS_LIBRARIES})
+target_link_libraries(vienna_benchmark cuda ${CUDA_LIBRARIES} ${CUDA_CUBLAS_LIBRARIES} benchmark)

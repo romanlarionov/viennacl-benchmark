@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 
-#include "hayai.hpp"
+#include "benchmark/benchmark.h"
 #include "viennacl/vector.hpp"
 #include "viennacl/matrix.hpp"
 #include "viennacl/linalg/inner_prod.hpp"
