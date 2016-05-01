@@ -1,0 +1,33 @@
+Run : 1		Real execution time: 42.449s	GFLOPs per second: 3.01538
+Run : 2		Real execution time: 42.4503s	GFLOPs per second: 3.01529
+Run : 3		Real execution time: 42.463s	GFLOPs per second: 3.01439
+Run : 4		Real execution time: 42.4406s	GFLOPs per second: 3.01598
+Run : 5		Real execution time: 42.4302s	GFLOPs per second: 3.01672
+Run : 6		Real execution time: 42.4268s	GFLOPs per second: 3.01696
+Run : 7		Real execution time: 42.4556s	GFLOPs per second: 3.01491
+Run : 8		Real execution time: 42.4537s	GFLOPs per second: 3.01505
+Run : 9		Real execution time: 42.441s	GFLOPs per second: 3.01595
+Run : 10		Real execution time: 42.4595s	GFLOPs per second: 3.01464
+Run : 11		Real execution time: 42.4608s	GFLOPs per second: 3.01455
+Run : 12		Real execution time: 42.4499s	GFLOPs per second: 3.01532
+Run : 13		Real execution time: 42.4568s	GFLOPs per second: 3.01483
+Run : 14		Real execution time: 42.4661s	GFLOPs per second: 3.01417
+Run : 15		Real execution time: 42.425s	GFLOPs per second: 3.01709
+Run : 16		Real execution time: 42.4388s	GFLOPs per second: 3.01611
+Run : 17		Real execution time: 42.4468s	GFLOPs per second: 3.01554
+Run : 18		Real execution time: 42.4306s	GFLOPs per second: 3.01669
+Run : 19		Real execution time: 42.4488s	GFLOPs per second: 3.01539
+Run : 20		Real execution time: 42.4474s	GFLOPs per second: 3.0155
+Run : 21		Real execution time: 42.4699s	GFLOPs per second: 3.0139
+Run : 22		Real execution time: 42.4314s	GFLOPs per second: 3.01663
+Run : 23		Real execution time: 42.4688s	GFLOPs per second: 3.01398
+Run : 24		Real execution time: 42.4585s	GFLOPs per second: 3.01471
+Run : 25		Real execution time: 42.4166s	GFLOPs per second: 3.01768
+Run : 26		Real execution time: 42.4192s	GFLOPs per second: 3.0175
+Run : 27		Real execution time: 42.4064s	GFLOPs per second: 3.01841
+Run : 28		Real execution time: 42.3962s	GFLOPs per second: 3.01914
+Run : 29		Real execution time: 42.4393s	GFLOPs per second: 3.01607
+
+Mean Execution Time: 42.443s
+Mean GFLOPs per second: : 3.01581
+Total Execution Time: 1230.85s
