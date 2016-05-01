@@ -1,33 +1,54 @@
-Run : 1		Real execution time: 42.449s	GFLOPs per second: 3.01538
-Run : 2		Real execution time: 42.4503s	GFLOPs per second: 3.01529
-Run : 3		Real execution time: 42.463s	GFLOPs per second: 3.01439
-Run : 4		Real execution time: 42.4406s	GFLOPs per second: 3.01598
-Run : 5		Real execution time: 42.4302s	GFLOPs per second: 3.01672
-Run : 6		Real execution time: 42.4268s	GFLOPs per second: 3.01696
-Run : 7		Real execution time: 42.4556s	GFLOPs per second: 3.01491
-Run : 8		Real execution time: 42.4537s	GFLOPs per second: 3.01505
-Run : 9		Real execution time: 42.441s	GFLOPs per second: 3.01595
-Run : 10		Real execution time: 42.4595s	GFLOPs per second: 3.01464
-Run : 11		Real execution time: 42.4608s	GFLOPs per second: 3.01455
-Run : 12		Real execution time: 42.4499s	GFLOPs per second: 3.01532
-Run : 13		Real execution time: 42.4568s	GFLOPs per second: 3.01483
-Run : 14		Real execution time: 42.4661s	GFLOPs per second: 3.01417
-Run : 15		Real execution time: 42.425s	GFLOPs per second: 3.01709
-Run : 16		Real execution time: 42.4388s	GFLOPs per second: 3.01611
-Run : 17		Real execution time: 42.4468s	GFLOPs per second: 3.01554
-Run : 18		Real execution time: 42.4306s	GFLOPs per second: 3.01669
-Run : 19		Real execution time: 42.4488s	GFLOPs per second: 3.01539
-Run : 20		Real execution time: 42.4474s	GFLOPs per second: 3.0155
-Run : 21		Real execution time: 42.4699s	GFLOPs per second: 3.0139
-Run : 22		Real execution time: 42.4314s	GFLOPs per second: 3.01663
-Run : 23		Real execution time: 42.4688s	GFLOPs per second: 3.01398
-Run : 24		Real execution time: 42.4585s	GFLOPs per second: 3.01471
-Run : 25		Real execution time: 42.4166s	GFLOPs per second: 3.01768
-Run : 26		Real execution time: 42.4192s	GFLOPs per second: 3.0175
-Run : 27		Real execution time: 42.4064s	GFLOPs per second: 3.01841
-Run : 28		Real execution time: 42.3962s	GFLOPs per second: 3.01914
-Run : 29		Real execution time: 42.4393s	GFLOPs per second: 3.01607
+Run : 1		Real execution time: 43.4037s	GFLOPs per second: 2.94906
+Run : 2		Real execution time: 43.3327s	GFLOPs per second: 2.95389
+Run : 3		Real execution time: 43.3887s	GFLOPs per second: 2.95008
+Run : 4		Real execution time: 43.3891s	GFLOPs per second: 2.95005
+Run : 5		Real execution time: 43.3654s	GFLOPs per second: 2.95167
+Run : 6		Real execution time: 43.3912s	GFLOPs per second: 2.94991
+Run : 7		Real execution time: 43.4176s	GFLOPs per second: 2.94811
+Run : 8		Real execution time: 43.3987s	GFLOPs per second: 2.9494
+Run : 9		Real execution time: 43.3706s	GFLOPs per second: 2.95131
+Run : 10		Real execution time: 43.3835s	GFLOPs per second: 2.95043
+Run : 11		Real execution time: 43.4096s	GFLOPs per second: 2.94866
+Run : 12		Real execution time: 43.3981s	GFLOPs per second: 2.94944
+Run : 13		Real execution time: 43.3917s	GFLOPs per second: 2.94987
+Run : 14		Real execution time: 43.3891s	GFLOPs per second: 2.95005
+Run : 15		Real execution time: 43.3966s	GFLOPs per second: 2.94954
+Run : 16		Real execution time: 43.4027s	GFLOPs per second: 2.94913
+Run : 17		Real execution time: 43.4056s	GFLOPs per second: 2.94893
+Run : 18		Real execution time: 43.4124s	GFLOPs per second: 2.94846
+Run : 19		Real execution time: 43.3873s	GFLOPs per second: 2.95017
+Run : 20		Real execution time: 43.3849s	GFLOPs per second: 2.95033
+Run : 21		Real execution time: 43.3996s	GFLOPs per second: 2.94934
+Run : 22		Real execution time: 43.3502s	GFLOPs per second: 2.95269
+Run : 23		Real execution time: 43.3792s	GFLOPs per second: 2.95072
+Run : 24		Real execution time: 43.3819s	GFLOPs per second: 2.95054
+Run : 25		Real execution time: 43.41s	GFLOPs per second: 2.94863
+Run : 26		Real execution time: 43.3923s	GFLOPs per second: 2.94983
+Run : 27		Real execution time: 43.342s	GFLOPs per second: 2.95325
+Run : 28		Real execution time: 43.4105s	GFLOPs per second: 2.94859
+Run : 29		Real execution time: 43.3636s	GFLOPs per second: 2.95179
+Run : 30		Real execution time: 43.4082s	GFLOPs per second: 2.94875
+Run : 31		Real execution time: 43.3752s	GFLOPs per second: 2.951
+Run : 32		Real execution time: 43.3781s	GFLOPs per second: 2.9508
+Run : 33		Real execution time: 43.4029s	GFLOPs per second: 2.94911
+Run : 34		Real execution time: 43.3966s	GFLOPs per second: 2.94954
+Run : 35		Real execution time: 43.4368s	GFLOPs per second: 2.94681
+Run : 36		Real execution time: 43.4195s	GFLOPs per second: 2.94798
+Run : 37		Real execution time: 43.3682s	GFLOPs per second: 2.95147
+Run : 38		Real execution time: 43.4174s	GFLOPs per second: 2.94812
+Run : 39		Real execution time: 43.4131s	GFLOPs per second: 2.94842
+Run : 40		Real execution time: 43.3981s	GFLOPs per second: 2.94944
+Run : 41		Real execution time: 43.4057s	GFLOPs per second: 2.94892
+Run : 42		Real execution time: 43.4088s	GFLOPs per second: 2.94871
+Run : 43		Real execution time: 43.3816s	GFLOPs per second: 2.95056
+Run : 44		Real execution time: 43.3878s	GFLOPs per second: 2.95014
+Run : 45		Real execution time: 43.3846s	GFLOPs per second: 2.95035
+Run : 46		Real execution time: 43.3617s	GFLOPs per second: 2.95191
+Run : 47		Real execution time: 43.3996s	GFLOPs per second: 2.94933
+Run : 48		Real execution time: 43.3098s	GFLOPs per second: 2.95545
+Run : 49		Real execution time: 43.2923s	GFLOPs per second: 2.95665
+Run : 50		Real execution time: 43.4156s	GFLOPs per second: 2.94825
 
-Mean Execution Time: 42.443s
-Mean GFLOPs per second: : 3.01581
-Total Execution Time: 1230.85s
+Mean Execution Time: 43.3882s
+Mean GFLOPs per second: : 2.95011
+Total Execution Time: 2169.41s
