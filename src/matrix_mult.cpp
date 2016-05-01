@@ -76,8 +76,7 @@ int main(int argc, char *argv[])
     double total_exec_time = 0.0;
     double total_gflops = 0.0;
 
-    // loop for total number of runs or until 20 minutes has passed
-    for (i = 1; (i <= num_runs) || (total_exec_time >= 1200.0); ++i)
+    for (i = 1; i <= num_runs; ++i)
     {
         std::vector<std::vector<double> > result;
         double curr_gflops = 0.0;
@@ -101,5 +100,3 @@ int main(int argc, char *argv[])
     output << "Total Execution Time: " << total_exec_time << "s\n";
     output.close();
 }
-
-

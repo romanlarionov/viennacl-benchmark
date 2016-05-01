@@ -55,8 +55,7 @@ int main(int argc, char *argv[])
     double exec_time = 0;
     double total_exec_time = 0.0;
 
-    // loop for total number of runs or until 20 minutes has passed
-    for (i = 1; (i <= num_runs) || (total_exec_time >= 1200.0); ++i)
+    for (i = 1; i <= num_runs; ++i)
     {
         double result = 0.0;
 
